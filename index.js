@@ -35,8 +35,8 @@ app.post('/', (req, res) => {
             return output = file;
         });
 
-    console.log('Hmm', output);
-    res.render('index', { context: output });
+    console.log('output zit hier', output);
+    res.render('index', { output: output });
 })
 
 // listening for
