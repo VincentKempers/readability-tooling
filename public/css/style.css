@@ -2,6 +2,13 @@
     font-family: helvetica, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .original-message {
     max-width: 40em;
 }
@@ -10,13 +17,6 @@
     margin: 0 .2em;
     font-size: 1.5em;
     line-height: 33px;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .output-message {
