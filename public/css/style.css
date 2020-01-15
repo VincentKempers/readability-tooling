@@ -1,0 +1,53 @@
+* {
+    font-family: helvetica, sans-serif;
+}
+
+.original-message {
+    max-width: 40em;
+}
+
+.output-message {
+    margin: 0 .2em;
+    font-size: 1.5em;
+    line-height: 33px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.output-message {
+    margin-top: 4em;
+    max-width: 40em;
+}
+
+.confidence-1\/7 {
+    background-color: green;
+}
+
+.confidence-2\/7 {
+    background-color: lightgreen;
+}
+
+.confidence-3\/7 {
+    background-color: lightsalmon;
+}
+
+.confidence-4\/7 {
+    background-color: orange;
+}
+
+.confidence-5\/7 {
+    background-color: lightcoral;
+}
+
+.confidence-6\/7 {
+    background-color: #ff6f69;
+}
+
+.confidence-7\/7 {
+    background-color: red;
+}

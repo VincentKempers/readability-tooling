@@ -1,33 +1,34 @@
 {
-  "name": "afstudeer-project",
-  "version": "1.0.0",
-  "description": "Afstudeerproject",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/VincentKempers/afstudeer-project.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/VincentKempers/afstudeer-project/issues"
-  },
-  "homepage": "https://github.com/VincentKempers/afstudeer-project#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "ejs": "^3.0.1",
-    "emoji": "^0.3.2",
-    "express": "^4.17.1",
-    "retext-dutch": "^3.0.4",
-    "retext-emoji": "^6.0.0",
-    "retext-readability": "^5.0.0",
-    "retext-stringify": "^2.0.4",
-    "to-vfile": "^6.0.0",
-    "unified": "^8.4.2",
-    "unified-stream": "^1.0.5",
-    "vfile-reporter": "^6.0.0"
-  }
+    "name": "afstudeer-project",
+    "version": "1.0.0",
+    "description": "Afstudeerproject",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VincentKempers/afstudeer-project.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/VincentKempers/afstudeer-project/issues"
+    },
+    "homepage": "https://github.com/VincentKempers/afstudeer-project#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "ejs": "^3.0.1",
+        "emoji": "^0.3.2",
+        "express": "^4.17.1",
+        "retext-dutch": "^3.0.4",
+        "retext-emoji": "^6.0.0",
+        "retext-readability": "^5.0.0",
+        "retext-stringify": "^2.0.4",
+        "to-vfile": "^6.0.0",
+        "unified": "^8.4.2",
+        "unified-stream": "^1.0.5",
+        "vfile-reporter": "^6.0.0"
+    }
 }

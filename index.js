@@ -16,17 +16,14 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // get homepage
 app.get('/', (req, res) => {
-    res.render('index');
+    res.render('index', { output: '' });
 })
 
-app.post('/', (req, res) => {
-    console.log('sup', req.body.readableText);
+app.post('/text', (req, res) => {
     var input = req.body.readableText;
     var output;
-
     unified()
         .use(dutch)
-        .use(readability)
         .use(readability, { age: 12 })
         .use(stringify)
         .process(input, function(err, file) {
