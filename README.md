@@ -1,8 +1,5 @@
-# afstudeer-project
-_Hier ga je binnenkort meer over mijn afstudeer project vinden!_
-
-## readability tool
-Made a readability tool in dutch with unified and retext. This is based on the sentence how hard it is to read. I will be testing this project on the basis of checking it with people who are low literate. This means it will only be used to get a global understanding of..
+# Readability tool
+Made a readability tool in Dutch with unified and retext. This is based on the sentence how hard it is to read. I will be testing this project on the basis of checking it with people who are low literate. This means it will only be used to get a global understanding of..
 
 > Could these algorithms around determine what's hard for low literate.
 
@@ -12,7 +9,9 @@ Made a readability tool in dutch with unified and retext. This is based on the s
 
 After deducting this my research can continue and I will have a prove of concept (Which already is). After being confirmed I can use this "median" for my future studies.
 
-## Used for a readability tool
+## Results
+
+## Packages used
 - [unifiedJS](https://unifiedjs.com)
 - [unified-stream](https://unifiedjs.com)
 - [retext](https://github.com/retextjs/retext)
@@ -23,3 +22,6 @@ After deducting this my research can continue and I will have a prove of concept
 
 [Readability by Titus Wormer](https://wooorm.com/readability/)
 [UnifiedJS](https://unifiedjs.com)
+
+## License
+<!-- TODO: License -->
