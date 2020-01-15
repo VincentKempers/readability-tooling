@@ -14,9 +14,13 @@ body {
 }
 
 .output-message {
-    margin: 0 .2em;
     font-size: 1.5em;
-    line-height: 33px;
+    line-height: 40px;
+}
+
+span {
+    margin: 0 .4em;
+    padding: 0 .3em;
 }
 
 .output-message {
@@ -41,13 +45,13 @@ body {
 }
 
 .confidence-5\/7 {
-    background-color: lightcoral;
+    background-color: darkorange;
 }
 
 .confidence-6\/7 {
-    background-color: #ff6f69;
+    background-color: lightcoral;
 }
 
 .confidence-7\/7 {
-    background-color: red;
+    background-color: darkred;
 }
