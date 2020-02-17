@@ -25,13 +25,19 @@
         <div class="output-message">
             <% output.messages.forEach(mes => { %>
                 <span class="confidence-<%= mes.confidenceLabel%>">
-                    <%= mes.actual %>
-                </span>
+            <%= mes.actual %>
+        </span>
                 <% }) %>
         </div>
         <% } else { %>
             <p>Zet wat tekst in de het textvak hierboven 👆</p>
             <% } %>
+
+                <footer>
+                    <div>
+                        <p>for testing purposes only</p>
+                    </div>
+                </footer>
 
 
 </body>
