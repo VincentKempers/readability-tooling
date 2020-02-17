@@ -24,14 +24,12 @@ app.post('/text', (req, res) => {
     var output;
     unified()
         .use(dutch)
-        .use(readability, { age: 12 })
+        .use(readability, { age: 14 })
         .use(stringify)
         .process(input, function(err, file) {
             console.error(report(err || file))
-                // console.log(file);
             return output = file;
         });
-
     console.log('output zit hier', output);
     res.render('index', { output: output });
 })
