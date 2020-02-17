@@ -1,0 +1,72 @@
+* {
+    font-family: helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+.original-message {
+    max-width: 40em;
+}
+
+.output-message {
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
+span {
+    margin: 0 .4em;
+    padding: 0 .3em;
+}
+
+.output-message {
+    margin-top: 4em;
+    max-width: 40em;
+}
+
+.confidence-1\/7 {
+    background-color: green;
+}
+
+.confidence-2\/7 {
+    background-color: lightgreen;
+}
+
+.confidence-3\/7 {
+    background-color: lightsalmon;
+}
+
+.confidence-4\/7 {
+    background-color: orange;
+}
+
+.confidence-5\/7 {
+    background-color: darkorange;
+}
+
+.confidence-6\/7 {
+    background-color: lightcoral;
+}
+
+.confidence-7\/7 {
+    background-color: darkred;
+}
+
+footer {
+    background-color: #ff7320;
+    /* padding: .5em 10em; */
+    width: 29em;
+    position: absolute;
+    bottom: 5em;
+    right: -7em;
+    transform: rotate(-45deg);
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}

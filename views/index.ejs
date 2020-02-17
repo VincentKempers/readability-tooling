@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Readability</title>
+</head>
+
+<body>
+    <h1>Leesbaarheid</h1>
+    <p>Het checken op leesbaarheid.</p>
+
+    <form action="/text" method="post">
+        <input name="readableText" type="textarea" class="ghost-input" placeholder="Enter text" required>
+        <input type="submit" class="ghost-button" value="check readability">
+    </form>
+
+    <% if (output) { %>
+        <p class="original-message">
+            <%= output.contents %>
+        </p>
+        <div class="output-message">
+            <% output.messages.forEach(mes => { %>
+                <span class="confidence-<%= mes.confidenceLabel%>">
+            <%= mes.actual %>
+        </span>
+                <% }) %>
+        </div>
+        <% } else { %>
+            <p>Zet wat tekst in de het textvak hierboven 👆</p>
+            <% } %>
+
+                <footer>
+                    <div>
+                        <p>for testing purposes only</p>
+                    </div>
+                </footer>
+
+
+</body>
+
+</html>
