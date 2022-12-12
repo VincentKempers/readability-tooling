@@ -21,7 +21,7 @@
         "body-parser": "^1.19.0",
         "ejs": "^3.0.1",
         "emoji": "^0.3.2",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "retext-dutch": "^3.0.4",
         "retext-emoji": "^6.0.0",
         "retext-readability": "^5.0.0",
